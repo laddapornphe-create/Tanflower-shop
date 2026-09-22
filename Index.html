@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAN Flower Shop</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff8fa;
+            color: #444;
+        }
+
+        header {
+            background: #f8dce5;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #b85c78;
+            font-size: 32px;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: #555;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+            background: #fff0f4;
+        }
+
+        .hero h2 {
+            color: #b85c78;
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #b85c78;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+        }
+
+        .products {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .products h2 {
+            color: #b85c78;
+            margin-bottom: 30px;
+        }
+
+        .flower-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .flower {
+            background: white;
+            width: 220px;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .emoji {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .flower h3 {
+            color: #b85c78;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .about {
+            background: #f8dce5;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .about h2 {
+            color: #b85c78;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            margin: 8px;
+        }
+
+        footer {
+            background: #b85c78;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌸 TAN Flower Shop 🌸</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h2>Bloom with Love 🌷</h2>
+
+        <p>
+            Beautiful flowers for every special moment.
+            <br>
+            ดอกไม้สวย ๆ สำหรับทุกช่วงเวลาพิเศษของคุณ
+        </p>
+
+        <a href="#shop" class="button">Shop Now</a>
+    </section>
+
+    <section class="products" id="shop">
+
+        <h2>Our Flowers 🌸</h2>
+
+        <div class="flower-container">
+
+            <div class="flower">
+                <div class="emoji">🌷</div>
+                <h3>Pink Tulip</h3>
+                <p>Sweet and lovely tulips.</p>
+                <div class="price">฿890</div>
+                <a href="#" class="button">Order</a>
+            </div>
+
+            <div class="flower">
+                <div class="emoji">🌹</div>
+                <h3>Red Roses</h3>
+                <p>Perfect flowers for love.</p>
+                <div class="price">฿1,290</div>
+                <a href="#" class="button">Order</a>
+            </div>
+
+            <div class="flower">
+                <div class="emoji">🌻</div>
+                <h3>Sunflower</h3>
+                <p>Bright flowers for happiness.</p>
+                <div class="price">฿990</div>
+                <a href="#" class="button">Order</a>
+            </div>
+
+            <div class="flower">
+                <div class="emoji">💐</div>
+                <h3>Flower Bouquet</h3>
+                <p>A beautiful bouquet for someone special.</p>
+                <div class="price">฿1,500</div>
+                <a href="#" class="button">Order</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Our Shop 🌷</h2>
+        <p>We create beautiful flower bouquets with love and care.</p>
+        <p>Flowers can make every day brighter.</p>
+    </section>
+
+    <footer id="contact">
+        <p>📞 098-123-4567</p>
+        <p>📧 tanflowershop@gmail.com</p>
+        <p>📍 Bangkok, Thailand</p>
+        <p>© 2026 TAN Flower Shop</p>
+    </footer>
+
+</body>
+</html>
